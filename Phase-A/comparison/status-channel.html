@@ -1,0 +1,47 @@
+<!doctype html><meta charset="utf-8">
+<title>Visual Phase A — status channel + HUD chips</title>
+<!--
+  The single-slot gameplay status channel renders at most ONE chip at a time,
+  and only while a Shield/Magnet/zone is actually active. Neither the audit
+  baseline nor the Phase-A capture run could force those states without editing
+  gameplay, which this phase forbids. This page therefore renders the real
+  markup against the real production stylesheet so the five converted status
+  symbols can be reviewed at their true size. It is presentation evidence, not
+  a screenshot of a running game.
+-->
+<link rel="stylesheet" href="../../../../../src/styles/global.css">
+<style>
+  body{background:#0c0717;padding:28px;font-family:"Segoe UI",system-ui}
+  h3{color:#b7aed0;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;margin:22px 0 8px}
+  .rowset{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+  .pod-row{display:flex;gap:8px;align-items:flex-start}
+  .static{position:static!important;transform:none!important}
+</style>
+<h3>Status channel — all five states (one slot, one optical weight)</h3>
+<div class="rowset" id="chips"></div>
+<h3>Daily token chip (the Phase-A acceptance item)</h3>
+<div class="rowset"><span class="token-chip static"></span></div>
+<h3>HUD pods</h3>
+<div class="pod-row" id="pods"></div>
+<script type="module">
+const ICON = {
+  shield:'<path d="M12 3.3 5.4 6.1v5.2c0 4 2.7 7.5 6.6 8.6 3.9-1.1 6.6-4.6 6.6-8.6V6.1z"/><path d="M12 8.2v4.6"/>',
+  magnet:'<path d="M6.4 19.4v-7.2a5.6 5.6 0 0 1 11.2 0v7.2"/><path d="M10.4 19.4v-7.2a1.6 1.6 0 0 1 3.2 0v7.2"/><path d="M6.4 19.4h4"/><path d="M13.6 19.4h4"/>',
+  speed:'<path d="M5.6 6.2 11.4 12l-5.8 5.8"/><path d="M13 6.2 18.8 12 13 17.8"/>',
+  energy:'<path d="M12 3.6 14.97 9.03 20.4 12l-5.43 2.97L12 20.4l-2.97-5.43L3.6 12l5.43-2.97z"/>',
+  danger:'<path d="M12 4.4 20.4 19.3H3.6z"/><path d="M12 10.2v3.4"/><path d="M12 16.4h.01"/>',
+  tunnel:'<rect x="3.2" y="3.2" width="17.6" height="17.6" rx="4"/><rect x="8.7" y="8.7" width="6.6" height="6.6" rx="1.8"/>',
+  token:'<circle cx="12" cy="12" r="8.8"/><path d="M12 7 16.33 9.5v5L12 17l-4.33-2.5v-5z"/>',
+  life:'<path d="M12 19.9C7.5 16.2 4.4 13.4 4.4 10.3A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7.6 2.3c0 3.1-3.1 5.9-7.6 9.6Z" fill="currentColor"/>',
+};
+const svg=(n,s)=>`<svg class="rush-icon" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${s<=16?2.4:s<=20?2.2:2}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
+const STATUS=[['shield','shield','SHIELD · 5s'],['magnet','magnet','MAGNET · 4s'],['speed','speed','Speed Zone'],['energy','energy','Energy Zone'],['danger','danger','Danger Zone'],['tunnel','tunnel','Tunnel Pulse']];
+document.getElementById('chips').innerHTML = STATUS.map(([kind,icon,text])=>
+  `<span class="status-chip status-chip--${kind}">${svg(icon,16).replace('class="rush-icon"','class="rush-icon status-chip__icon"')}<span class="tnum">${text}</span></span>`).join('');
+document.querySelector('.token-chip').innerHTML = svg('token',16)+`<span class="token-chip__text">Tokens <span class="tnum">7/15</span></span>`;
+document.getElementById('pods').innerHTML =
+  `<div class="hud__item"><span class="hud__label">Score</span><span class="hud__value tnum">12 480</span></div>`+
+  `<div class="hud__item hud__item--lives"><span class="hud__label">Lives</span><span class="hud__value hud__lives">${svg('life',18).repeat(3)}</span></div>`+
+  `<div class="hud__item hud__item--time"><span class="hud__label">Time</span><span class="hud__value tnum">56s</span></div>`+
+  `<div class="hud__item hud__item--combo"><span class="hud__label">Combo</span><span class="hud__value tnum">x8</span></div>`;
+</script>

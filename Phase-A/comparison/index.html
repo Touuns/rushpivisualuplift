@@ -1,0 +1,378 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Visual Phase A — before / after contact sheet</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#0c0717;--elev:#160d2a;--text:#f4f1fb;--dim:#b7aed0;--gold:#ffd166;--violet:#a78bfa}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 "Segoe UI",system-ui,sans-serif;padding:24px}
+h1{font-size:1.4rem;margin:0 0 4px}p.sub{color:var(--dim);margin:0 0 18px;max-width:78ch;font-size:.9rem}
+.bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 0 14px;background:linear-gradient(var(--bg) 70%,transparent);margin-bottom:6px}
+button{font:inherit;font-size:.85rem;font-weight:700;color:var(--dim);background:rgba(12,7,23,.45);border:1px solid rgba(167,139,250,.12);border-radius:8px;padding:8px 14px;cursor:pointer}
+button[aria-pressed=true]{background:linear-gradient(135deg,#8b5cf6,#ff7a3d);color:var(--text);border-color:transparent}
+.grid{display:flex;flex-direction:column;gap:26px}
+.pair{margin:0}
+figcaption{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);font-weight:700;margin-bottom:8px}
+.vp{color:var(--violet)}.tag{color:var(--gold)}
+.shots{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.shot{position:relative;background:var(--elev);border:1px solid rgba(167,139,250,.12);border-radius:12px;padding:8px;max-width:min(48%,760px)}
+.shot img{display:block;width:100%;height:auto;border-radius:6px}
+.lbl{position:absolute;top:14px;left:14px;z-index:2;font-size:.6rem;font-weight:800;letter-spacing:.12em;padding:3px 8px;border-radius:999px;background:rgba(6,3,14,.82)}
+.lbl--b{color:var(--dim);border:1px solid rgba(167,139,250,.3)}
+.lbl--a{color:var(--gold);border:1px solid rgba(255,209,102,.5)}
+.none{display:grid;place-items:center;min-height:200px;color:var(--dim);font-size:.8rem;text-align:center;padding:20px}
+</style>
+<h1>Visual Phase A — before / after</h1>
+<p class="sub">BEFORE frames are the audit baseline at <code>1646d0f</code>, copied unchanged. AFTER frames were captured with the same harness, fixture and viewports on branch <code>visual/phase-a-ui-coherence</code>. Runs are live gameplay, so object poses and scores differ between the two columns — compare UI treatment, not identical frames. The populated-leaderboard frames have no matched baseline (the audit's local list was empty); they are additional evidence.</p>
+<div class="bar">
+  <button data-f="key" aria-pressed="true">Acceptance set</button>
+  <button data-f="all" aria-pressed="false">All screens</button>
+  <span style="width:14px"></span>
+  <button data-v="375x667" aria-pressed="true">375&times;667</button>
+  <button data-v="414x736" aria-pressed="false">414&times;736</button>
+  <button data-v="1440x900" aria-pressed="false">1440&times;900</button>
+</div>
+<div class="grid"><figure class="pair" data-vp="375x667" data-fam="campaign" data-key="true">
+    <figcaption>campaign <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="campaign" data-key="true">
+    <figcaption>campaign <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="campaign" data-key="true">
+    <figcaption>campaign <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="campaign-gameplay" data-key="false">
+    <figcaption>campaign-gameplay <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-gameplay-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-gameplay-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="campaign-gameplay" data-key="false">
+    <figcaption>campaign-gameplay <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-gameplay-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-gameplay-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="campaign-gameplay" data-key="false">
+    <figcaption>campaign-gameplay <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-gameplay-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-gameplay-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="campaign-result" data-key="false">
+    <figcaption>campaign-result <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-result-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-result-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="campaign-result" data-key="false">
+    <figcaption>campaign-result <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-result-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-result-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="campaign-result" data-key="false">
+    <figcaption>campaign-result <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/campaign-result-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/campaign-result-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="daily-gameplay" data-key="true">
+    <figcaption>daily-gameplay <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-gameplay-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-gameplay-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="daily-gameplay" data-key="true">
+    <figcaption>daily-gameplay <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-gameplay-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-gameplay-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="daily-gameplay" data-key="true">
+    <figcaption>daily-gameplay <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-gameplay-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-gameplay-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="daily-intro-modal" data-key="true">
+    <figcaption>daily-intro-modal <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-intro-modal-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-intro-modal-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="daily-intro-modal" data-key="true">
+    <figcaption>daily-intro-modal <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-intro-modal-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-intro-modal-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="daily-intro-modal" data-key="true">
+    <figcaption>daily-intro-modal <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-intro-modal-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-intro-modal-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="daily-midrun" data-key="false">
+    <figcaption>daily-midrun <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-midrun-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-midrun-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="daily-midrun" data-key="false">
+    <figcaption>daily-midrun <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-midrun-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-midrun-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="daily-midrun" data-key="false">
+    <figcaption>daily-midrun <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-midrun-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-midrun-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="daily-preparation" data-key="true">
+    <figcaption>daily-preparation <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-preparation-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-preparation-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="daily-preparation" data-key="true">
+    <figcaption>daily-preparation <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-preparation-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-preparation-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="daily-preparation" data-key="true">
+    <figcaption>daily-preparation <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-preparation-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-preparation-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="daily-result" data-key="true">
+    <figcaption>daily-result <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-result-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-result-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="daily-result" data-key="true">
+    <figcaption>daily-result <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-result-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-result-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="daily-result" data-key="true">
+    <figcaption>daily-result <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/daily-result-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/daily-result-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="first-result" data-key="true">
+    <figcaption>first-result <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/first-result-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/first-result-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="first-result" data-key="true">
+    <figcaption>first-result <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/first-result-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/first-result-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="first-result" data-key="true">
+    <figcaption>first-result <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/first-result-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/first-result-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="guided-gameplay" data-key="false">
+    <figcaption>guided-gameplay <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/guided-gameplay-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/guided-gameplay-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="guided-gameplay" data-key="false">
+    <figcaption>guided-gameplay <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/guided-gameplay-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/guided-gameplay-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="guided-gameplay" data-key="false">
+    <figcaption>guided-gameplay <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/guided-gameplay-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/guided-gameplay-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="home" data-key="true">
+    <figcaption>home <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/home-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/home-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="home" data-key="true">
+    <figcaption>home <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/home-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/home-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="home" data-key="true">
+    <figcaption>home <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/home-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/home-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="leaderboard-daily-empty" data-key="true">
+    <figcaption>leaderboard-daily-empty <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/leaderboard-daily-empty-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-daily-empty-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="leaderboard-daily-empty" data-key="true">
+    <figcaption>leaderboard-daily-empty <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/leaderboard-daily-empty-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-daily-empty-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="leaderboard-daily-empty" data-key="true">
+    <figcaption>leaderboard-daily-empty <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/leaderboard-daily-empty-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-daily-empty-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="leaderboard-local" data-key="false">
+    <figcaption>leaderboard-local <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/leaderboard-local-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-local-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="leaderboard-local" data-key="false">
+    <figcaption>leaderboard-local <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/leaderboard-local-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-local-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="leaderboard-local" data-key="false">
+    <figcaption>leaderboard-local <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/leaderboard-local-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-local-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="leaderboard-local-populated" data-key="false">
+    <figcaption>leaderboard-local-populated <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><div class="none">no matched baseline frame</div></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-local-populated-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="leaderboard-local-populated" data-key="false">
+    <figcaption>leaderboard-local-populated <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><div class="none">no matched baseline frame</div></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-local-populated-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="leaderboard-local-populated" data-key="false">
+    <figcaption>leaderboard-local-populated <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><div class="none">no matched baseline frame</div></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/leaderboard-local-populated-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="profile" data-key="true">
+    <figcaption>profile <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/profile-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/profile-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="profile" data-key="true">
+    <figcaption>profile <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/profile-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/profile-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="profile" data-key="true">
+    <figcaption>profile <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/profile-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/profile-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="profile-lower" data-key="false">
+    <figcaption>profile-lower <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/profile-lower-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/profile-lower-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="profile-lower" data-key="false">
+    <figcaption>profile-lower <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/profile-lower-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/profile-lower-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="profile-lower" data-key="false">
+    <figcaption>profile-lower <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/profile-lower-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/profile-lower-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="quit-modal" data-key="false">
+    <figcaption>quit-modal <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/quit-modal-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/quit-modal-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="quit-modal" data-key="false">
+    <figcaption>quit-modal <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/quit-modal-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/quit-modal-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="quit-modal" data-key="false">
+    <figcaption>quit-modal <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/quit-modal-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/quit-modal-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="survival-gameplay" data-key="false">
+    <figcaption>survival-gameplay <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/survival-gameplay-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/survival-gameplay-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="survival-gameplay" data-key="false">
+    <figcaption>survival-gameplay <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/survival-gameplay-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/survival-gameplay-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="survival-gameplay" data-key="false">
+    <figcaption>survival-gameplay <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/survival-gameplay-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/survival-gameplay-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="survival-result" data-key="false">
+    <figcaption>survival-result <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/survival-result-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/survival-result-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="survival-result" data-key="false">
+    <figcaption>survival-result <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/survival-result-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/survival-result-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="survival-result" data-key="false">
+    <figcaption>survival-result <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/survival-result-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/survival-result-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="token-detail" data-key="false">
+    <figcaption>token-detail <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/token-detail-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/token-detail-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="token-detail" data-key="false">
+    <figcaption>token-detail <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/token-detail-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/token-detail-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="token-detail" data-key="false">
+    <figcaption>token-detail <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/token-detail-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/token-detail-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="training-gameplay" data-key="true">
+    <figcaption>training-gameplay <span class="vp">375x667</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/training-gameplay-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/training-gameplay-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="training-gameplay" data-key="true">
+    <figcaption>training-gameplay <span class="vp">414x736</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/training-gameplay-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/training-gameplay-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="training-gameplay" data-key="true">
+    <figcaption>training-gameplay <span class="vp">1440x900</span> <span class="tag">acceptance</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/training-gameplay-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/training-gameplay-1440x900.png"></div>
+    </div></figure><figure class="pair" data-vp="375x667" data-fam="training-result" data-key="false">
+    <figcaption>training-result <span class="vp">375x667</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/training-result-375x667.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/training-result-375x667.png"></div>
+    </div></figure><figure class="pair" data-vp="414x736" data-fam="training-result" data-key="false">
+    <figcaption>training-result <span class="vp">414x736</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/training-result-414x736.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/training-result-414x736.png"></div>
+    </div></figure><figure class="pair" data-vp="1440x900" data-fam="training-result" data-key="false">
+    <figcaption>training-result <span class="vp">1440x900</span></figcaption>
+    <div class="shots">
+      <div class="shot"><span class="lbl lbl--b">BEFORE</span><img loading="lazy" src="../before/training-result-1440x900.png"></div>
+      <div class="shot"><span class="lbl lbl--a">AFTER</span><img loading="lazy" src="../after/training-result-1440x900.png"></div>
+    </div></figure></div>
+<script>
+let scope='key', vp='375x667';
+const apply=()=>{
+  document.querySelectorAll('.pair').forEach(p=>{
+    const okV = p.dataset.vp===vp;
+    const okS = scope==='all' || p.dataset.key==='true';
+    p.style.display = (okV&&okS)?'':'none';
+  });
+  document.querySelectorAll('[data-f]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.f===scope)));
+  document.querySelectorAll('[data-v]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.v===vp)));
+};
+document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{scope=b.dataset.f;apply()});
+document.querySelectorAll('[data-v]').forEach(b=>b.onclick=()=>{vp=b.dataset.v;apply()});
+apply();
+</script></html>
