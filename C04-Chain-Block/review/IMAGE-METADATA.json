@@ -1,0 +1,326 @@
+[
+  {
+    "path": "C04-Chain-Block/candidates/A/C04-A-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1192378,
+    "sha256": "d28246f31f8d52784e4cd3b9d7e45ecfd3aa699c4c4796ee0a9017b24277dded",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      163,
+      103,
+      1135,
+      1149
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      972,
+      1046
+    ],
+    "bbox_center_offset": [
+      22.0,
+      -1.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/A/C04-A-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18474,
+    "sha256": "f652018cd8f305b5a69bca18bbb8bb10214f181a2a3e59213fe195b03bf962d9",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      19,
+      16,
+      108,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      89,
+      96
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/A/C04-A-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5704,
+    "sha256": "e12ec82271cf33babd2bd3cba460e2e08d4ddfd8655eae5d3f3de7f93dd5dd13",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      9,
+      8,
+      54,
+      56
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      45,
+      48
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/A/C04-A-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 1779,
+    "sha256": "42b8df18fd9740124413311cd18160c91d08094ee649324877ddf2d7d8a4bf36",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      5,
+      4,
+      27,
+      28
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      22,
+      24
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/candidates/B/C04-B-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1346156,
+    "sha256": "bbc84cdea6d5f9e8836b3ce66c33c98425bfedb454bf8d2d69f26ce0eef2b082",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      140,
+      85,
+      1122,
+      1168
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      982,
+      1083
+    ],
+    "bbox_center_offset": [
+      4.0,
+      -0.5
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/B/C04-B-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18016,
+    "sha256": "2ece246e1bb21fdbee91d8722dfa696b4dda3c4c79794ba6cf1820aaea64d863",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      20,
+      16,
+      107,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      87,
+      96
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/B/C04-B-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5535,
+    "sha256": "16c06381ce29fe92bdb115019d44308e00b83027e6ef43f135254403e64576cb",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      10,
+      8,
+      54,
+      56
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      44,
+      48
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/B/C04-B-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 1750,
+    "sha256": "ffea61e3732b1ea38432fee3c78a4e5cc54075908b96d67c1f8f6814fb5840a3",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      5,
+      4,
+      27,
+      28
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      22,
+      24
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/candidates/C/C04-C-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1357658,
+    "sha256": "6220509d5e310c89585ac28110025870d62d31640011dfd77335302f4ea40067",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      158,
+      138,
+      1146,
+      1178
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      988,
+      1040
+    ],
+    "bbox_center_offset": [
+      25.0,
+      31.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/C/C04-C-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18230,
+    "sha256": "43132ba497cfc1f3cff17dad323ab1586bcc92d79e58f27fe7692f3a13b47385",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      18,
+      16,
+      109,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      91,
+      96
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/C/C04-C-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5656,
+    "sha256": "f9a803c600707cb2bae6126a2b8009719f91058c114f7310a23a6cd86bccccf8",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      9,
+      8,
+      55,
+      56
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      46,
+      48
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/C/C04-C-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 1822,
+    "sha256": "434d0e07c2af894bd43c66424029916cd9dcfd64102c90fa346e67784d0dabd2",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      27,
+      28
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      23,
+      24
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  }
+]

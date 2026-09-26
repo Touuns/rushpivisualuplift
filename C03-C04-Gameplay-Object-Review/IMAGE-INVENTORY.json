@@ -1,0 +1,1379 @@
+[
+  {
+    "path": "C03-Player-Orb/candidates/A/C03-A-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 777832,
+    "sha256": "91dff0df1df73af0d50626a4bdced9e911d9ccb49ba38eb88b0634c6c1af3246",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      179,
+      181,
+      1073,
+      1060
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      894,
+      879
+    ],
+    "bbox_center_offset": [
+      -1.0,
+      -6.5
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/candidates/B/C03-B-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 997795,
+    "sha256": "d3824420999330a500d12249c074b2355fa91b47ce4d1b7db71308e55bb6c7f3",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      127,
+      130,
+      1123,
+      1115
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      996,
+      985
+    ],
+    "bbox_center_offset": [
+      -2.0,
+      -4.5
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/candidates/C/C03-C-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 904266,
+    "sha256": "cc87b8b361a32e93a1018e4f979845d6a51bef1c1674987b1080585f9ddb98d4",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      174,
+      169,
+      1079,
+      1074
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      905,
+      905
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      -5.5
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/A/C03-A-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18342,
+    "sha256": "83ac61b5092aae7e87f24809488c902fcf8e83f090264c0d853fa885ef251cde",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      8,
+      8,
+      120,
+      120
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      112,
+      112
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/A/C03-A-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5979,
+    "sha256": "b736833ee42d6767e0e5cf872993fb079aca2fdb44c677b9bc92f152732a0070",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      56,
+      56
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/B/C03-B-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 20311,
+    "sha256": "83e30d3f26123e82ea6a604c083ae9bfa224a9e70047d85ca7531f095c72de0c",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      8,
+      8,
+      120,
+      120
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      112,
+      112
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/B/C03-B-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 6655,
+    "sha256": "7f7c9c5f39bd25873e4c422029052e0567750c70b40476d2384708e4acb5e6d0",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      56,
+      56
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/C/C03-C-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 19654,
+    "sha256": "2dddbe841be61853c4109edb2a72d800562d1603fa5eb5b0cb503603401c9ebd",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      8,
+      8,
+      120,
+      120
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      112,
+      112
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/C/C03-C-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 6515,
+    "sha256": "6f2129970b9ffe4e43911b5aba6ce406c98f1630c1250ba3ab25d1633a4462fc",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      56,
+      56
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-A-body-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 2524,
+    "sha256": "39b14ebb10c0ea4a2a264e7a77fb32cdc72e40feca6ffb8a400fd0e2c0ed0a9d",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "edge_alpha_max": 253,
+    "body_wh": [
+      32,
+      32
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-A-body-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 4033,
+    "sha256": "66560e882e784eec7a43ed88971f34397cabe7a427f5d659e6975369ebc4871a",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "edge_alpha_max": 254,
+    "body_wh": [
+      44,
+      44
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-A-gameplay-preview.png",
+    "width": 454,
+    "height": 810,
+    "mode": "RGB",
+    "bytes": 243797,
+    "sha256": "80f8d1aeebd4585832dac3096c3b9730a330bbc714902eebb8adcc04ba2d0cbd",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      454,
+      810
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      454,
+      810
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-B-body-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 2713,
+    "sha256": "4227b98d45fc56e6d4d902436d7b91ad53d0a2b8d0473a59efe5f35459e149d6",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "edge_alpha_max": 253,
+    "body_wh": [
+      32,
+      32
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-B-body-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 4462,
+    "sha256": "de91eccc027a80670a32360f1190e54bf8cfa216a4902ff0cca4679ccbac90cd",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "edge_alpha_max": 254,
+    "body_wh": [
+      44,
+      44
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-B-gameplay-preview.png",
+    "width": 454,
+    "height": 810,
+    "mode": "RGB",
+    "bytes": 243939,
+    "sha256": "7ecdd8e80c17da11645baf8e799cdea12148a04b127e106fb3260a0e63f4d5db",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      454,
+      810
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      454,
+      810
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-C-body-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 2679,
+    "sha256": "fb90c9c5aed2420abd1a7f849f80fd6443cbe3502987e38b78e58c6dc56e7f51",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "edge_alpha_max": 253,
+    "body_wh": [
+      32,
+      32
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-C-body-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 4378,
+    "sha256": "b21ea070dfb274dfc6b34293b2feb2ad804142a31a60079a379f325510ec0593",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "edge_alpha_max": 254,
+    "body_wh": [
+      44,
+      44
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-C-gameplay-preview.png",
+    "width": 454,
+    "height": 810,
+    "mode": "RGB",
+    "bytes": 243603,
+    "sha256": "035b8119bc9e85f3dc1b435b2d74c40d14f1b378e769a20a9944fec9437293ff",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      454,
+      810
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      454,
+      810
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-SCALE-ALPHA-PROOF.png",
+    "width": 1120,
+    "height": 920,
+    "mode": "RGB",
+    "bytes": 235424,
+    "sha256": "89b954fffdaa24280828524d7212de8af0cf282a62e68d39b3c76c7316ad4ae5",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      1120,
+      920
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      1120,
+      920
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/REVIEW-ONLY-pi-overlay-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 575,
+    "sha256": "da13d14b273b520d526752828ef467e3b607b5571edaf319f947fa50a6e7fc4c",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      14,
+      15,
+      30,
+      27
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      16,
+      12
+    ],
+    "bbox_center_offset": [
+      0.0,
+      -1.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/B2-gameplay-preview.png",
+    "width": 940,
+    "height": 1620,
+    "mode": "RGB",
+    "bytes": 735448,
+    "sha256": "f83da5f151c5e86e1a247a478bfd5f27334b636749c2d62f07038b801fa0392b",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      940,
+      1620
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      940,
+      1620
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/C01-B2-v1.png",
+    "width": 941,
+    "height": 1672,
+    "mode": "RGB",
+    "bytes": 1412734,
+    "sha256": "61ccfca0170d86a4dc8601f4cbabf27ffbe85440f236ad11371c565f91a2a167",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      941,
+      1672
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      941,
+      1672
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/C04-C-material-reference.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1357658,
+    "sha256": "6220509d5e310c89585ac28110025870d62d31640011dfd77335302f4ea40067",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      158,
+      138,
+      1146,
+      1178
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      988,
+      1040
+    ],
+    "bbox_center_offset": [
+      25.0,
+      31.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/current-chain-block-128w.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18085,
+    "sha256": "9794b9718b39ecf129688b68cdae15078fe595a6c250f05ceeb56306ce94175b",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      20,
+      16,
+      108,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      88,
+      96
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/current-player-crop.png",
+    "width": 60,
+    "height": 60,
+    "mode": "RGBA",
+    "bytes": 1967,
+    "sha256": "ea7ead9a79df6e3939791e156fc230f6c3a16c709222c7923c6786b3a74d4058",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      60,
+      60
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      60,
+      60
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/daily-gameplay.png",
+    "width": 414,
+    "height": 736,
+    "mode": "RGB",
+    "bytes": 162371,
+    "sha256": "d03d19e956ea46aae4bb8e114b708a0263a6dbe2cf5a7e08ac0ca5a00b1a4c38",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      414,
+      736
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      414,
+      736
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/references/guided-gameplay.png",
+    "width": 414,
+    "height": 736,
+    "mode": "RGB",
+    "bytes": 29945,
+    "sha256": "610b2d015fdfd6a1f62acdcad299652698a2753b8de936112b3604aa0d313537",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      414,
+      736
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      414,
+      736
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/candidates/A/C04-A-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1192378,
+    "sha256": "d28246f31f8d52784e4cd3b9d7e45ecfd3aa699c4c4796ee0a9017b24277dded",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      163,
+      103,
+      1135,
+      1149
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      972,
+      1046
+    ],
+    "bbox_center_offset": [
+      22.0,
+      -1.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/candidates/B/C04-B-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1346156,
+    "sha256": "bbc84cdea6d5f9e8836b3ce66c33c98425bfedb454bf8d2d69f26ce0eef2b082",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      140,
+      85,
+      1122,
+      1168
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      982,
+      1083
+    ],
+    "bbox_center_offset": [
+      4.0,
+      -0.5
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/candidates/C/C04-C-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 1357658,
+    "sha256": "6220509d5e310c89585ac28110025870d62d31640011dfd77335302f4ea40067",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      158,
+      138,
+      1146,
+      1178
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      988,
+      1040
+    ],
+    "bbox_center_offset": [
+      25.0,
+      31.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/A/C04-A-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18474,
+    "sha256": "f652018cd8f305b5a69bca18bbb8bb10214f181a2a3e59213fe195b03bf962d9",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      19,
+      16,
+      108,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      89,
+      96
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/A/C04-A-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 1779,
+    "sha256": "42b8df18fd9740124413311cd18160c91d08094ee649324877ddf2d7d8a4bf36",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      5,
+      4,
+      27,
+      28
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      22,
+      24
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/A/C04-A-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5704,
+    "sha256": "e12ec82271cf33babd2bd3cba460e2e08d4ddfd8655eae5d3f3de7f93dd5dd13",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      9,
+      8,
+      54,
+      56
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      45,
+      48
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/B/C04-B-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18016,
+    "sha256": "2ece246e1bb21fdbee91d8722dfa696b4dda3c4c79794ba6cf1820aaea64d863",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      20,
+      16,
+      107,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      87,
+      96
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/B/C04-B-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 1750,
+    "sha256": "ffea61e3732b1ea38432fee3c78a4e5cc54075908b96d67c1f8f6814fb5840a3",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      5,
+      4,
+      27,
+      28
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      22,
+      24
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/B/C04-B-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5535,
+    "sha256": "16c06381ce29fe92bdb115019d44308e00b83027e6ef43f135254403e64576cb",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      10,
+      8,
+      54,
+      56
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      44,
+      48
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/C/C04-C-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18230,
+    "sha256": "43132ba497cfc1f3cff17dad323ab1586bcc92d79e58f27fe7692f3a13b47385",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      18,
+      16,
+      109,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      91,
+      96
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/C/C04-C-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 1822,
+    "sha256": "434d0e07c2af894bd43c66424029916cd9dcfd64102c90fa346e67784d0dabd2",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      27,
+      28
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      23,
+      24
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/normalized/C/C04-C-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5656,
+    "sha256": "f9a803c600707cb2bae6126a2b8009719f91058c114f7310a23a6cd86bccccf8",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      9,
+      8,
+      55,
+      56
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      46,
+      48
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/proofs/C04-A-gameplay-preview.png",
+    "width": 454,
+    "height": 810,
+    "mode": "RGB",
+    "bytes": 245505,
+    "sha256": "2bfb4486e569d030f806d5b00977291b19139e9e76a1c3fd25cdd8f02a6417fd",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      454,
+      810
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      454,
+      810
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/proofs/C04-B-gameplay-preview.png",
+    "width": 454,
+    "height": 810,
+    "mode": "RGB",
+    "bytes": 245374,
+    "sha256": "ca15cf08f7bdc9c1d15df8b19f84db053b7e1fabf63123a6f3618d7a51140bd8",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      454,
+      810
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      454,
+      810
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/proofs/C04-C-gameplay-preview.png",
+    "width": 454,
+    "height": 810,
+    "mode": "RGB",
+    "bytes": 245154,
+    "sha256": "53b43000af1028656ad3223dfa10dce7ad5e102d67d5cf8a751e9ecebc9b076f",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      454,
+      810
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      454,
+      810
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/proofs/C04-EXACT-BODY-STRESS.png",
+    "width": 1080,
+    "height": 560,
+    "mode": "RGB",
+    "bytes": 82861,
+    "sha256": "80eb985fcb475b4e003bdf9c24608832b272a59ae59cfecc3f8c3f7c88ba5750",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      1080,
+      560
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      1080,
+      560
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/proofs/C04-SCALE-ALPHA-PROOF.png",
+    "width": 1120,
+    "height": 920,
+    "mode": "RGB",
+    "bytes": 177650,
+    "sha256": "6526ef4d55a8813df0db0e3004a10cccfca2ac1dd32dc8e8cc34db2307b3fb86",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      1120,
+      920
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      1120,
+      920
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/references/B2-gameplay-preview.png",
+    "width": 940,
+    "height": 1620,
+    "mode": "RGB",
+    "bytes": 735448,
+    "sha256": "f83da5f151c5e86e1a247a478bfd5f27334b636749c2d62f07038b801fa0392b",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      940,
+      1620
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      940,
+      1620
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/references/C01-B2-v1.png",
+    "width": 941,
+    "height": 1672,
+    "mode": "RGB",
+    "bytes": 1412734,
+    "sha256": "61ccfca0170d86a4dc8601f4cbabf27ffbe85440f236ad11371c565f91a2a167",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      941,
+      1672
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      941,
+      1672
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/references/current-chain-block-128w.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18085,
+    "sha256": "9794b9718b39ecf129688b68cdae15078fe595a6c250f05ceeb56306ce94175b",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      20,
+      16,
+      108,
+      112
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      88,
+      96
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/references/daily-gameplay.png",
+    "width": 414,
+    "height": 736,
+    "mode": "RGB",
+    "bytes": 162371,
+    "sha256": "d03d19e956ea46aae4bb8e114b708a0263a6dbe2cf5a7e08ac0ca5a00b1a4c38",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      414,
+      736
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      414,
+      736
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C04-Chain-Block/references/guided-gameplay.png",
+    "width": 414,
+    "height": 736,
+    "mode": "RGB",
+    "bytes": 29945,
+    "sha256": "610b2d015fdfd6a1f62acdcad299652698a2753b8de936112b3604aa0d313537",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      414,
+      736
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      414,
+      736
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-C04-Gameplay-Object-Review/C03-C04-COMPARISON.png",
+    "width": 1392,
+    "height": 1700,
+    "mode": "RGB",
+    "bytes": 586488,
+    "sha256": "46404ed8f57c91c5d9bd5903fc2c7529ae009853d9e2752ddcc630ff0b837b8d",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      1392,
+      1700
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      1392,
+      1700
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-C04-Gameplay-Object-Review/C03-C04-GAMEPLAY-SCALE-PROOF.png",
+    "width": 1322,
+    "height": 830,
+    "mode": "RGB",
+    "bytes": 433707,
+    "sha256": "aaf1f89aca2a9c52627ae312dc1c48a19a9a64522ac6cb2e48eb50e9906362c6",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      1322,
+      830
+    ],
+    "edge_alpha_max": 255,
+    "body_wh": [
+      1322,
+      830
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  }
+]

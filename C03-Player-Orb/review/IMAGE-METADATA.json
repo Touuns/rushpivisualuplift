@@ -1,0 +1,407 @@
+[
+  {
+    "path": "C03-Player-Orb/candidates/A/C03-A-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 777832,
+    "sha256": "91dff0df1df73af0d50626a4bdced9e911d9ccb49ba38eb88b0634c6c1af3246",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      179,
+      181,
+      1073,
+      1060
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      894,
+      879
+    ],
+    "bbox_center_offset": [
+      -1.0,
+      -6.5
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/A/C03-A-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 18342,
+    "sha256": "83ac61b5092aae7e87f24809488c902fcf8e83f090264c0d853fa885ef251cde",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      8,
+      8,
+      120,
+      120
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      112,
+      112
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/A/C03-A-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 5979,
+    "sha256": "b736833ee42d6767e0e5cf872993fb079aca2fdb44c677b9bc92f152732a0070",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      56,
+      56
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-A-body-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 4033,
+    "sha256": "66560e882e784eec7a43ed88971f34397cabe7a427f5d659e6975369ebc4871a",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "edge_alpha_max": 254,
+    "body_wh": [
+      44,
+      44
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-A-body-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 2524,
+    "sha256": "39b14ebb10c0ea4a2a264e7a77fb32cdc72e40feca6ffb8a400fd0e2c0ed0a9d",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "edge_alpha_max": 253,
+    "body_wh": [
+      32,
+      32
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/candidates/B/C03-B-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 997795,
+    "sha256": "d3824420999330a500d12249c074b2355fa91b47ce4d1b7db71308e55bb6c7f3",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      127,
+      130,
+      1123,
+      1115
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      996,
+      985
+    ],
+    "bbox_center_offset": [
+      -2.0,
+      -4.5
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/B/C03-B-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 20311,
+    "sha256": "83e30d3f26123e82ea6a604c083ae9bfa224a9e70047d85ca7531f095c72de0c",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      8,
+      8,
+      120,
+      120
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      112,
+      112
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/B/C03-B-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 6655,
+    "sha256": "7f7c9c5f39bd25873e4c422029052e0567750c70b40476d2384708e4acb5e6d0",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      56,
+      56
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-B-body-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 4462,
+    "sha256": "de91eccc027a80670a32360f1190e54bf8cfa216a4902ff0cca4679ccbac90cd",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "edge_alpha_max": 254,
+    "body_wh": [
+      44,
+      44
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-B-body-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 2713,
+    "sha256": "4227b98d45fc56e6d4d902436d7b91ad53d0a2b8d0473a59efe5f35459e149d6",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "edge_alpha_max": 253,
+    "body_wh": [
+      32,
+      32
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/candidates/C/C03-C-v1-master.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 904266,
+    "sha256": "cc87b8b361a32e93a1018e4f979845d6a51bef1c1674987b1080585f9ddb98d4",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      174,
+      169,
+      1079,
+      1074
+    ],
+    "edge_alpha_max": 1,
+    "body_wh": [
+      905,
+      905
+    ],
+    "bbox_center_offset": [
+      -0.5,
+      -5.5
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/C/C03-C-128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "bytes": 19654,
+    "sha256": "2dddbe841be61853c4109edb2a72d800562d1603fa5eb5b0cb503603401c9ebd",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      8,
+      8,
+      120,
+      120
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      112,
+      112
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/normalized/C/C03-C-64.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "bytes": 6515,
+    "sha256": "6f2129970b9ffe4e43911b5aba6ce406c98f1630c1250ba3ab25d1633a4462fc",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "edge_alpha_max": 0,
+    "body_wh": [
+      56,
+      56
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-C-body-44.png",
+    "width": 44,
+    "height": 44,
+    "mode": "RGBA",
+    "bytes": 4378,
+    "sha256": "b21ea070dfb274dfc6b34293b2feb2ad804142a31a60079a379f325510ec0593",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "edge_alpha_max": 254,
+    "body_wh": [
+      44,
+      44
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "path": "C03-Player-Orb/proofs/C03-C-body-32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "bytes": 2679,
+    "sha256": "fb90c9c5aed2420abd1a7f849f80fd6443cbe3502987e38b78e58c6dc56e7f51",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "body_bbox_alpha128": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "edge_alpha_max": 253,
+    "body_wh": [
+      32,
+      32
+    ],
+    "bbox_center_offset": [
+      0.0,
+      0.0
+    ]
+  }
+]
